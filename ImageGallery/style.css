@@ -7,8 +7,6 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
-    /* overflow: hidden; */
-    
 }
 
 #overlay{
@@ -28,13 +26,17 @@ body{
 }
 
 
-#overlay.active p{
+#overlay.active div{
     width: 80%;
     text-align: end;
     margin: 5px;
     color: red;
     font-weight: 900;
     font-size: xx-large;
+}
+
+#overlay.active p{
+    display: inline;
     cursor: pointer;
 }
 
